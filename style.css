@@ -1,0 +1,47 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #cc4f8d;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #a13a6e;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ece7eb;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  input[type="submit"] {
+    background-color: #a13a6e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #cc4f8d;
+  }
